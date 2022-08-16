@@ -19,7 +19,7 @@ on:
 jobs:
   vpn_test:
     runs-on: ubuntu-20.04
-    if: github.repository_owner == 'hwdsl2'
+    if: github.repository_owner == 'master'
     strategy:
       matrix:
         test_id: [no-env, with-env]
